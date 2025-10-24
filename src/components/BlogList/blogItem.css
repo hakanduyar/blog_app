@@ -1,0 +1,39 @@
+.blog-item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.blog-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.blog-item h2 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.blog-item-content {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.blog-item-meta {
+  display: flex;
+  gap: 15px;
+  font-size: 14px;
+  color: #777;
+}
+
+.blog-item-category {
+  background-color: #3498db;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+}
