@@ -1,13 +1,12 @@
-import blogData from '../../data/blogData';
 import BlogItem from './blogItem'
 import './blogList.css'
 
-const BlogList = () => {
+const BlogList = ({blogs}) => {
   return (
     <div className='blog-list'>
       <h1>Blog Yazıları</h1>
       <div className='blog-items-container'>
-        {blogData.map((blog) => (
+        {blogs.map((blog) => (
             <BlogItem
           key={blog.id}
           title={blog.title}
